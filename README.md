@@ -1,2 +1,2 @@
-# drift-wordpress
+# Drift Wordpress
 Drift integration with Wordpress
