@@ -37,6 +37,9 @@ Otherwise the widget operates in [aquisition mode](https://www.drift.com/live-ch
 
 == Changelog ==
 
+= 1.1 =
+* Add better sanitizing, escape and validation.
+
 = 0.1.4 =
 * First release candidate.
 
