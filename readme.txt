@@ -1,5 +1,5 @@
 === Drift: Free Live Chat ===
-Contributors: driftcom
+Contributors: Drift
 
 Tags: customer, chat, free chat, livechat, Slack, Intercom, HubSpot, Salesforce, Zapier, hellobar, hello bar, popup, Ontraport, Pardot, Klaviyo, popup, exit intent, growth, subscribers, subscription, email form,  analytics,  widget, lightbox, inbound marketing, welcome mat, landing pagelivechat, olark, boldchat, online chat, online support, php live chat, snapengage, support software, Website Chat, WordPress chat, wordpress live chat, wordpress live chat plugin, zendesk, Zopim, Zopim live chat, tawk, tawk.to, tawkto, jivosite, snapengage,Chat Widget
 

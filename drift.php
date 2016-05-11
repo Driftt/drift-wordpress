@@ -1,10 +1,10 @@
 <?php
 /*
  * Plugin Name: Drift
- * Version: 1.1
+ * Version: 1.2
  * Plugin URI: https://www.drift.com/?ref=wordpress
  * Description: Adds Drift free live chat to your website. Designed for internet businesses like yours to increase sales, conversions and better support your customers.
- * Author: driftcom
+ * Author: Drift
  * Author URI: http://www.drift.com/
  */
 
