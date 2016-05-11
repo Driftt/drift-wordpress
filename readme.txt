@@ -1,4 +1,4 @@
-=== Drift: Free Live Chat ===
+=== Drift ===
 Contributors: Drift
 
 Tags: customer, chat, free chat, livechat, Slack, Intercom, HubSpot, Salesforce, Zapier, hellobar, hello bar, popup, Ontraport, Pardot, Klaviyo, popup, exit intent, growth, subscribers, subscription, email form,  analytics,  widget, lightbox, inbound marketing, welcome mat, landing pagelivechat, olark, boldchat, online chat, online support, php live chat, snapengage, support software, Website Chat, WordPress chat, wordpress live chat, wordpress live chat plugin, zendesk, Zopim, Zopim live chat, tawk, tawk.to, tawkto, jivosite, snapengage,Chat Widget
@@ -7,11 +7,9 @@ Drift enables you to chat with your website visitors, increase sales and collect
 
 Requires at least: 4.0.1
 Tested up to: 4.5.1
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-*Note: This is the official Drift plugin for Wordpress.*
 
 The 100% free way to chat with leads and customers.
 
@@ -19,7 +17,7 @@ Drift lets you monitor and chat with visitors to your store and website in real-
 
 == Description ==
 
-Drift is the easiest way to add free live chat to your site.
+[Drift](https://www.drift.com/) is the easiest way to add free live chat to your site.
 
 [youtube http://www.youtube.com/watch?v=lWxyM6Ko2-Y]
 
@@ -37,9 +35,6 @@ Your emails are great, but what about the 80% of people who never open them? Rea
 
 = Improve Your Net Promoter Score =
 Get actionable feedback that will help your business create products your customers love.
-
-= Easy Installation and Live Preview =
-The Drift plugin is powered by Eager, a new tool which makes it easier to install Wordpress plugins.  Install the Drift plugin to see a powerful live preview of Drift on your site and customize it before finalizing your installation, all within your existing Wordpress admin site.
 
 = Features =
 
@@ -128,6 +123,9 @@ Step-by-step Guide:
 * Finally, make full use of our Dashboard to manage your chat widget.
 
 == Changelog ==
+
+= 1.3 =
+* Update naming, readme, and added a 256x256 icon file.
 
 = 1.2 =
 * Update Readme file
