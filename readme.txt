@@ -7,7 +7,7 @@ Drift enables you to chat with your website visitors, increase sales and collect
 
 Requires at least: 4.0.1
 Tested up to: 4.5.1
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -123,6 +123,10 @@ Step-by-step Guide:
 * Finally, make full use of our Dashboard to manage your chat widget.
 
 == Changelog ==
+
+= 1.4 =
+* Clean up code.
+* Better checking of user capabilities.
 
 = 1.3 =
 * Update naming, readme, and added a 256x256 icon file.
