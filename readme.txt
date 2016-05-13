@@ -11,9 +11,7 @@ Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The 100% free way to chat with leads and customers.
-
-Drift lets you monitor and chat with visitors to your store and website in real-time.
+Drift allows you to talk to your website visitors and customers in real-time, from anywhere.
 
 == Description ==
 
@@ -68,7 +66,7 @@ Start closing more sales and getting better customer feedback today. Get started
 **Key Features**
 
 * Talk to your website visitors and customers in real-time, right from Slack.
-* Integrates seamlessly with HubSpot, Marketo, Mailchimp, Intercom, Salesforce, Segment and 100s more.
+* Integrates seamlessly with HubSpot, Marketo, Mailchimp, Zapier, Intercom, Salesforce, Segment and 100s more.
 * If a `$current_user` is present, we use their email as an identifier in the widget.
 Otherwise the widget operates in [aquisition mode](https://www.drift.com/live-chat) and prompts anonymous users for their email address. This allows you to talk with anonymous visitors on your WordPress site.
 
@@ -78,7 +76,8 @@ Otherwise the widget operates in [aquisition mode](https://www.drift.com/live-ch
 1. Chat window - minimized
 2. Chat widget - maximized
 3. Wordpress settings
-4. Drift targeted announcement messages
+4. Announcement messages
+5. Overlay messages
 
 == Frequently Asked Questions ==
 
