@@ -4,7 +4,7 @@
 
 1. Create and configure an account at [Drift](http://www.drift.com).
 2. Add this plugin to WordPress and enable it. See [Managing Plugins](https://codex.wordpress.org/Managing_Plugins)
-3. Visit https://app.driftt.com/settings/configure and copy the code chunk
+3. Visit https://app.drift.com/settings/configure and copy the code chunk
 4. Visit Drift Settings on your WordPress site and paste the code chunk into the textarea. Submit the settings form.
 
 # Users
