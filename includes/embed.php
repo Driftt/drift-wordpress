@@ -6,8 +6,7 @@ add_action('wp_head', 'add_drift');
 // If we can indentify the current user output
 function get_drift_identify()
 {
-  global $current_user;
-  get_currentuserinfo();
+  $current_user = wp_get_current_user();
   if ($current_user->user_email) {
     $sanitized_email = sanitize_email($current_user->user_email);
     echo "<!-- Start Identify call for Drift -->\n";
