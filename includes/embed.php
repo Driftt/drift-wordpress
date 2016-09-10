@@ -36,8 +36,6 @@ function add_drift()
     return;
   }
 
-  global $current_user;
-  get_currentuserinfo();
   $options = get_option('Drift_settings');
 
   // If options is empty then exit
