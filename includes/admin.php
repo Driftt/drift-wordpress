@@ -52,7 +52,7 @@ function drift_options_page()
                     </th>
                     <td>
                       <textarea rows="8" cols="100" placeholder="<!-- Insert the Drift tag here -->" name="Drift_settings[drift_widget_code]"><?php echo esc_attr( $options['drift_widget_code'] ); ?></textarea>
-                        <p style="margin: 5px 10px;">Enter your Drift JS code snippet.  You can find your <a href="https://app.driftt.com/settings/configure" target="_blank" title="Open Drift Settings">Drift JS code snippet here</a>. A Free Drift account is required to use this plugin.</p>
+                        <p style="margin: 5px 10px;">Enter your Drift JS code snippet.  You can find your <a href="https://app.drift.com/settings/configure" target="_blank" title="Open Drift Settings">Drift JS code snippet here</a>. A Free Drift account is required to use this plugin.</p>
                     </td>
                 </tr>
                 </table>
