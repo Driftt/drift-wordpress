@@ -117,7 +117,7 @@ Note: You will need a free Drift account : <a href="https://www.drift.com/?utm_s
 Step-by-step Guide:
 
 * Install plugin from WordPress directory and activate it.
-* Under Drift section, click on Settings to add your Drift embed code.
+* Under settings section, click on Drift to add your Drift embed code
 * Customize the chat widget to your preference.
 * Finally, make full use of our Dashboard to manage your chat widget.
 
