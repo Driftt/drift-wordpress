@@ -18,7 +18,7 @@ function add_drift_link_to_admin_bar()
     'id' => 'drift-admin-menu',
     'title' => '<span class="ab-icon" ' . ($wp_version < 3.8 && !is_plugin_active('mp6/mp6.php') ? ' style="margin-top: 3px;"' : '') . '>' . $drift_icon . '</span><span class="ab-label">Drift</span>', // alter the title of existing node
     'parent' => FALSE,   // set parent to false to make it a top level (parent) node
-    'href' => get_bloginfo('wpurl') . '/wp-admin/admin.php?page=drift.php',
+    'href' => get_bloginfo('wpurl') . '/wp-admin/admin.php?page=menus.php',
     'meta' => array('title' => 'Drift')
   );
 

@@ -1,7 +1,7 @@
 === Drift ===
 Contributors: Drift
 
-Tags: drift, live chat, chat, communication, sales, marketing, announcements, talk to customers, customer feedback, feedback, chat plugin, free, free chat, livechat, slack, intercom, hubspot, salesforce, zapier, hellobar, hello bar, popup, ontraport, pardot, klaviyo, popup, exit intent, growth, subscribers, subscription, email form,  analytics,  widget, lightbox, inbound marketing, welcome mat, landing pagelivechat, olark, boldchat, online chat, online support, in-app chat, instant message, helpdesk, php live chat, snapengage, support software, website chat, wordpress chat, wordpress live chat, wordpress live chat plugin, zendesk, zopim, zopim live chat, tawk, tawk.to, tawkto, jivosite, snapengage,chat widget
+Tags: drift, live chat, chat, communication, sales, marketing, announcements, talk to customers, customer feedback, feedback, chat plugin, free, free chat, chatra, livechat, slack, intercom, hubspot, salesforce, zapier, hellobar, hello bar, popup, ontraport, pardot, klaviyo, popup, exit intent, growth, subscribers, subscription, email form,  analytics,  widget, lightbox, inbound marketing, welcome mat, landing pagelivechat, olark, boldchat, online chat, online support, in-app chat, instant message, helpdesk, php live chat, snapengage, support software, website chat, wordpress chat, wordpress live chat, wordpress live chat plugin, zendesk, zopim, zopim live chat, tawk, tawk.to, tawkto, jivosite, snapengage,chat widget
 
 Drift enables you to chat with your website visitors, increase sales and collect feedback for Free.
 

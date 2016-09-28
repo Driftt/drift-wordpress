@@ -8,7 +8,10 @@ function drift_options_page()
 
   // Check to see if Drift is enabled
   $drift_activated = false;
-  if ( esc_attr( $options['drift_enabled'] ) == "on" ) { $drift_activated = true; }
+  if ( esc_attr( $options['drift_enabled'] ) == "on" ) {
+    $drift_activated = true;
+    wp_cache_flush();
+  }
 
 ?>
         <div class="wrap">
