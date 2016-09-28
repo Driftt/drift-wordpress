@@ -6,12 +6,12 @@ Tags: drift, live chat, chat, communication, sales, marketing, announcements, ta
 Drift enables you to chat with your website visitors, increase sales and collect feedback for Free.
 
 Requires at least: 3.4
-Tested up to: 4.5.1
+Tested up to: 4.6.1
 Stable tag: 1.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Drift is the 100% free way to talk to your leads and customers in real-time, from anywhere. Try it now!
+Drift is the 100% free way used by over 10,000 businesses to talk to their leads and customers in real-time, from anywhere. Try it now!
 
 == Description ==
 
@@ -126,6 +126,7 @@ Step-by-step Guide:
 = 1.5 =
 * Cleanup
 * New page targeting options
+* Flush Cache on setup
 * Localization
 
 = 1.4 =
