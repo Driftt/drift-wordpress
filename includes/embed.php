@@ -7,11 +7,14 @@ add_action('wp_head', 'add_drift');
 function get_drift_identify()
 {
   $current_user = wp_get_current_user();
+  //print_r($current_user->roles[0]);
+  //print_r(sanitize_text_field($current_user->roles[0]));
+
   if ($current_user->user_email) {
     $sanitized_email = sanitize_email($current_user->user_email);
     echo "<!-- Start Identify call for Drift -->\n";
     echo "<script>\n";
-    echo "drift.identify(\"".md5($sanitized_email)."\", { email: \"".$sanitized_email."\", name: \"".sanitize_text_field($current_user->user_login)."\" });\n";
+    echo "drift.identify(\"".md5($sanitized_email)."\", { email: \"".$sanitized_email."\", name: \"".sanitize_text_field($current_user->user_login)."\", userRole: \"".sanitize_text_field($current_user->roles[0])."\" });\n";
     echo "</script>\n";
     echo "<!-- End Identify call for Drift -->\n";
   } else {
