@@ -13,6 +13,13 @@ function drift_options_page()
     wp_cache_flush();
   }
 
+  // Check to see if Drift identify is checked
+  $drift_identify = false;
+  if ( esc_attr( $options['drift_identify'] ) == "on" ) {
+    $drift_identify = true;
+    wp_cache_flush();
+  }
+
 ?>
         <div class="wrap">
         <form name="Drift-form" action="options.php" method="post" enctype="multipart/form-data">
@@ -48,6 +55,8 @@ function drift_options_page()
                     </td>
                 </tr>
             </table>
+            <label for="drift_identify">Drift Identify: &nbsp;</label>
+            <input type="checkbox" name="Drift_settings[drift_identify]" <?php if($drift_identify) { echo " checked='checked'"; } ?> />
                 <table class="form-table" cellspacing="2" cellpadding="5" width="100%">
                 <tr>
                     <th valign="top" style="padding-top: 10px;">

@@ -1,3 +1,5 @@
+(this is a copy of [the Wordpress SVN repo's trunk](https://plugins.svn.wordpress.org/drift/); that is the source of truth. code changes here have no effect on the plugin and are provided only for visibility)
+
 # Drift WordPress Integration
 
 # Installation
