@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Drift x.x.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-26 15:10+0300\n"
+"PO-Revision-Date: 2018-09-26 15:14+0300\n"
+"Last-Translator: Vlăduț Ilie <vladilie94@gmail.com>\n"
+"Language-Team: Vlăduț Ilie\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Loco-Source-Locale: es_ES\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ../includes\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Poedit-SearchPath-0: class-drift-main.php\n"
+"X-Poedit-SearchPathExcluded-0: class-drift-loader.php\n"
+"X-Poedit-SearchPathExcluded-1: ../drift.php\n"
+"X-Poedit-SearchPathExcluded-2: ../uninstall.php\n"
+
+#: class-drift-main.php:133 class-drift-main.php:136 class-drift-main.php:152
+#: class-drift-main.php:200
+msgid "Drift"
+msgstr "Drift"
+
+#: class-drift-main.php:152
+msgid "Drift options"
+msgstr "Opțiuni Drift"
+
+#: class-drift-main.php:169
+msgid "Settings"
+msgstr "Setări"
+
+#: class-drift-main.php:194
+msgid "Form options for Drift plugin."
+msgstr "Formular de opțiuni pentru modulul Drift."
+
+#: class-drift-main.php:201
+msgid "Identifying"
+msgstr "Identificare"
+
+#: class-drift-main.php:202
+msgid "Hide on these pages"
+msgstr "Ascunde pe aceste pagini"
+
+#: class-drift-main.php:203
+msgid "JS code snippet"
+msgstr "Fragment de cod JS"
+
+#: class-drift-main.php:204
+msgid "JS hook"
+msgstr "Agățător JS"
+
+#: class-drift-main.php:232
+msgid "Drift settings"
+msgstr "Setări Drift"
+
+#: class-drift-main.php:375
+#, php-format
+msgid ""
+"%1$s Start code snippet by Drift plugin %2$s%3$s%1$s End code snippet by "
+"Drift plugin %2$s"
+msgstr ""
+"%1$s Începe fragmentul de cod al modulului Drift %2$s%3$s%1$s Sfârșit "
+"frament de cod al modulului Drift %2$s"
+
+#: class-drift-main.php:415
+msgid "Enable Drift plugin and the live chat on your site"
+msgstr "Activează modulul Drift și discuțiile live"
+
+#: class-drift-main.php:439
+msgid "Enable identifying authenticated users"
+msgstr "Activează identificarea utilizatorilor autentificați"
+
+#: class-drift-main.php:462
+#, php-format
+msgid ""
+"%1$sYou can add many IDs of posts or pages separated by comma where live "
+"chat does not appear.%2$s"
+msgstr ""
+"%1$sPoți adăuga mai multe IDuri de articole și pagini separate prin virgulă "
+"acolo unde discuțiile live să nu apară.%2$s"
+
+#: class-drift-main.php:486
+msgid "Insert the Drift tag here"
+msgstr "Inserează eticheta Drift aici"
+
+#: class-drift-main.php:490
+#, php-format
+msgid ""
+"Enter your Drift JS code snippet. You can find your Drift JS code snippet "
+"%1$shere%2$s. A Free Drift account is required to use this plugin."
+msgstr ""
+"Introdu fragmentul de cod JS Drift. Poți găsi fragmentul tău de cod JS Drift "
+"%1$saici%2$s. Este nevoie de un cont gratuit Drift pentru a folosi acest "
+"modul."
+
+#: class-drift-main.php:491
+msgid "Open Drift Settings"
+msgstr "Deschide setările Drift"
+
+#: class-drift-main.php:517
+msgid "Enable to load the above javascript in the site footer"
+msgstr "Activează încărcarea javascriptului de mai sus în subsolul sitului"
+
+#: class-drift-main.php:547 class-drift-main.php:559
+#, php-format
+msgid ""
+"%1$s Start identify call for Drift %2$s%3$s%1$s End identify call for Drift "
+"%2$s"
+msgstr ""
+"%1$s Început fragment de cod de la modulul Drift %2$s%3$s%1$s Sfârșit "
+"frament de cod de la modulul Drift %2$s"
