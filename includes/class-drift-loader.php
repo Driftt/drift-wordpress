@@ -58,11 +58,11 @@ if ( ! class_exists( 'Drift_Loader' ) ) {
 		 *
 		 * @since 3.2.9
 		 *
-		 * @param string	$hook				Required. Name of the hook.
-		 * @param string	$component	Required. Name of the class which $callback belongs to.
-		 * @param string	$callback		Required. Name of the method (function) from the $component class.
-		 * @param int			$priority		Optional. Default 10. Priority of the $callback.
-		 * @param int			$acc_args		Optional. Default 1. Number of the arguments of the $callback.
+		 * @param string $hook      Required. Name of the hook.
+		 * @param string $component Required. Name of the class which $callback belongs to.
+		 * @param string $callback  Required. Name of the method (function) from the $component class.
+		 * @param int    $priority  Optional. Default 10. Priority of the $callback.
+		 * @param int    $acc_args  Optional. Default 1. Number of the arguments of the $callback.
 		 */
 		public function add_action( $hook, $component, $callback, $priority = 10, $acc_args = 1 ) {
 			$this->actions = $this->add( $this->actions, $hook, $component, $callback, $priority, $acc_args );
@@ -75,11 +75,11 @@ if ( ! class_exists( 'Drift_Loader' ) ) {
 		 *
 		 * @since 3.2.9
 		 *
-		 * @param string	$hook				Required. Name of the hook.
-		 * @param string	$component	Required. Name of the class which $callback belongs to.
-		 * @param string	$callback		Required. Name of the method (function) from the $component class.
-		 * @param int			$priority		Optional. Default 10. Priority of the $callback.
-		 * @param int			$acc_args		Optional. Default 1. Number of the arguments of the $callback.
+		 * @param string $hook      Required. Name of the hook.
+		 * @param string $component Required. Name of the class which $callback belongs to.
+		 * @param string $callback  Required. Name of the method (function) from the $component class.
+		 * @param int    $priority  Optional. Default 10. Priority of the $callback.
+		 * @param int    $acc_args  Optional. Default 1. Number of the arguments of the $callback.
 		 */
 		public function add_filter( $hook, $component, $callback, $priority = 10, $acc_args = 1 ) {
 			$this->filters = $this->add( $this->filters, $hook, $component, $callback, $priority, $acc_args );
@@ -90,25 +90,25 @@ if ( ! class_exists( 'Drift_Loader' ) ) {
 		 *
 		 * A utility function that is used to register the actions and hooks into a single collection.
 		 *
-		 * @since		3.2.9
-		 *
+		 * @since 3.2.9
 		 * @access  private
-		 * @param		string	$hooks			Required. The hooks property array.
-		 * @param		string	$hook				Required. Name of the hook.
-		 * @param		string	$component	Required. Name of the class which $callback belongs to.
-		 * @param		string	$callback		Required. Name of the method (function) from the $component class.
-		 * @param		int			$priority		Optional. Default 10. Priority of the $callback.
-		 * @param		int			$acc_args		Optional. Default 1. Number of the arguments of the $callback.
+		 *
+		 * @param string $hooks     Required. The hooks property array.
+		 * @param string $hook      Required. Name of the hook.
+		 * @param string $component Required. Name of the class which $callback belongs to.
+		 * @param string $callback  Required. Name of the method (function) from the $component class.
+		 * @param int    $priority  Optional. Default 10. Priority of the $callback.
+		 * @param int    $acc_args  Optional. Default 1. Number of the arguments of the $callback.
 		 *
 		 * @return array An array with all the actions and filters.
 		 */
 		private function add( $hooks, $hook, $component, $callback, $priority, $acc_args ) {
 			$hooks[] = array(
-				'hook'      => $hook,			// tag
-				'component' => $component,// class
-				'callback'  => $callback,	// method
-				'priority'	=> $priority,	// priority
-				'acc_args'	=> $acc_args,	// accepted args
+				'hook'      => $hook, // tag
+				'component' => $component, // class
+				'callback'  => $callback, // method
+				'priority'  => $priority, // priority
+				'acc_args'  => $acc_args, // accepted args
 			);
 			return $hooks;
 		}
@@ -134,5 +134,5 @@ if ( ! class_exists( 'Drift_Loader' ) ) {
 				add_action( $hook['hook'], array( $hook['component'], $hook['callback'] ), $hook['priority'], $hook['acc_args'] );
 			}
 		}
-	} // End of Drift_Loader class
+	}
 }

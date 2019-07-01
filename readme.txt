@@ -2,11 +2,11 @@
 
 Contributors: Drift
 Tags: drift, live chat, chat, communication, sales, marketing, announcements, talk to customers, customer feedback, feedback, chat plugin, free, free chat, chatra, livechat, slack, intercom, hubspot, salesforce, zapier, hellobar, hello bar, popup, ontraport, pardot, klaviyo, popup, exit intent, growth, subscribers, subscription, email form,  analytics,  widget, lightbox, inbound marketing, welcome mat, landing pagelivechat, olark, boldchat, online chat, online support, in-app chat, instant message, helpdesk, php live chat, snapengage, support software, website chat, WordPress chat, WordPress live chat, WordPress live chat plugin, zendesk, zopim, zopim live chat, tawk, tawk.to, tawkto, jivosite, snapengage,chat widget
-Requires at least: 3.4
-Requires PHP: 4.1.0
+Requires at least: 4.9
+Requires PHP: 5.6
 Stable tag: 3.2.9
 Version: 3.2.9
-Tested up to: 4.9.8
+Tested up to: 5.2.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -22,7 +22,7 @@ Drift enables you to chat with your website visitors, increase sales and collect
 
 98% of website visitors leave without doing anything! It's time to change that.
 Live chat is the single fastest path to more conversions, customer insights, and sales.
-We [increased inbound leads by 200%](http://blog.drift.com/get-more-inbound-leads-with-live-chat) just putting live chat on our own site. 💥
+We [increased inbound leads by 200%](https://blog.drift.com/get-more-inbound-leads-with-live-chat) just putting live chat on our own site. 💥
 
 Often, you don't need more traffic to close more sales.  You just need to talk to visitors when they're live on your site.  Help customers who get stuck, encourage them to use your product, and get critical feedback - all inside your app, in real-time.
 
@@ -125,7 +125,7 @@ Step-by-step Guide:
 == Changelog ==
 
 = 3.2.9 =
-*Release date: September, 2018*
+*Release date: July, 2019*
 
 * Major update: restructuring the code, the plugin is now PHP-Class Oriented.
 * New feature: the live chat can be now showed in certain pages (requested by @captainamericawp)[https://wordpress.org/support/topic/add-to-custom-post-types-3/]).

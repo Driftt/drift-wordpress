@@ -25,7 +25,7 @@ You should have received a copy of the GNU General Public License
 along with Drift. If not, see https://www.gnu.org/licenses/gpl-3.0.html.
 */
 
-defined( 'ABSPATH' ) or exit;
+defined( 'ABSPATH' ) || exit;
 
 require_once( 'includes/class-drift-main.php' );
 $drift = new Drift_Main();

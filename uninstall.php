@@ -13,7 +13,7 @@
  * @see unregister_setting function is relied on
  * @link https://developer.wordpress.org/reference/functions/unregister_setting/
  */
-defined( 'WP_UNINSTALL_PLUGIN' ) of die;
+defined( 'WP_UNINSTALL_PLUGIN' ) || die;
 
 delete_option( 'drift_options' );
 unregister_setting( 'drift_group', 'drift_options' );
