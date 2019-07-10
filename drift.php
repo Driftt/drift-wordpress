@@ -1,28 +1,33 @@
 <?php
 /*
- * Plugin Name: Drift
- * Version: 1.5
- * Description: Adds 100% free live chat & targeted messages to your website. Designed for internet businesses like yours to increase sales, conversions and better support your customers.
- * Author: Drift
- * Author URI: https://www.drift.com/?ref=wordpress
- * Plugin URI: https://www.drift.com/?ref=wordpress
- */
+Plugin Name: Drift
+Plugin URI: https://wordpress.org/plugins/drift/
+Description: Adds 100% free live chat & targeted messages to your website. Designed for internet businesses like yours to increase sales, conversions and better support your customers.
+Version: 3.2.9
+Author: Drift
+Author URI: https://www.drift.com/?ref=wordpress
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: drift
+Domain Path: /languages
 
-// Prevent Direct Access
-defined('ABSPATH') or die("Restricted access!");
+Drift is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+any later version.
 
-/*
-* Define
+Drift is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Drift. If not, see https://www.gnu.org/licenses/gpl-3.0.html.
 */
-define('DRIFT_4f050d29b8BB9_VERSION', '1.5');
-define('DRIFT_4f050d29b8BB9_DIR', plugin_dir_path(__FILE__));
-define('DRIFT_4f050d29b8BB9_URL', plugin_dir_url(__FILE__));
-defined('DRIFT_4f050d29b8BB9_PATH') or define('DRIFT_4f050d29b8BB9_PATH', untrailingslashit(plugins_url('', __FILE__)));
 
-require_once(DRIFT_4f050d29b8BB9_DIR . 'includes/core.php');
-require_once(DRIFT_4f050d29b8BB9_DIR . 'includes/menus.php');
-require_once(DRIFT_4f050d29b8BB9_DIR . 'includes/admin.php');
-require_once(DRIFT_4f050d29b8BB9_DIR . 'includes/embed.php');
+defined( 'ABSPATH' ) || exit;
 
-
-?>
+require_once( 'includes/class-drift-main.php' );
+$drift = new Drift_Main();
+register_activation_hook( __FILE__, array( $drift, 'release_updates' ) );
+$drift->run();

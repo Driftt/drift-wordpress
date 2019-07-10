@@ -1,27 +1,28 @@
 === Drift ===
+
 Contributors: Drift
-
-Tags: drift, live chat, chat, communication, sales, marketing, announcements, talk to customers, customer feedback, feedback, chat plugin, free, free chat, chatra, livechat, slack, intercom, hubspot, salesforce, zapier, hellobar, hello bar, popup, ontraport, pardot, klaviyo, popup, exit intent, growth, subscribers, subscription, email form,  analytics,  widget, lightbox, inbound marketing, welcome mat, landing pagelivechat, olark, boldchat, online chat, online support, in-app chat, instant message, helpdesk, php live chat, snapengage, support software, website chat, wordpress chat, wordpress live chat, wordpress live chat plugin, zendesk, zopim, zopim live chat, tawk, tawk.to, tawkto, jivosite, snapengage,chat widget
-
-Drift enables you to chat with your website visitors, increase sales and collect feedback for Free.
-
-Requires at least: 3.4
-Tested up to: 4.6.1
-Stable tag: 1.4.1
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: drift, live chat, chat, communication, sales, marketing, announcements, talk to customers, customer feedback, feedback, chat plugin, free, free chat, chatra, livechat, slack, intercom, hubspot, salesforce, zapier, hellobar, hello bar, popup, ontraport, pardot, klaviyo, popup, exit intent, growth, subscribers, subscription, email form,  analytics,  widget, lightbox, inbound marketing, welcome mat, landing pagelivechat, olark, boldchat, online chat, online support, in-app chat, instant message, helpdesk, php live chat, snapengage, support software, website chat, WordPress chat, WordPress live chat, WordPress live chat plugin, zendesk, zopim, zopim live chat, tawk, tawk.to, tawkto, jivosite, snapengage,chat widget
+Requires at least: 4.9
+Requires PHP: 5.6
+Stable tag: 3.2.9
+Version: 3.2.9
+Tested up to: 5.2.2
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Drift is the 100% free way used by over 10,000 businesses to talk to their leads and customers in real-time, from anywhere. Try it now!
+
+Drift enables you to chat with your website visitors, increase sales and collect feedback for free.
 
 == Description ==
 
 [Drift](https://www.drift.com/) is the easiest way to add free live chat to your site.
 
-[youtube http://www.youtube.com/watch?v=lWxyM6Ko2-Y]
+[youtube https://www.youtube.com/watch?v=6zLnJqWLfVU]
 
 98% of website visitors leave without doing anything! It's time to change that.
 Live chat is the single fastest path to more conversions, customer insights, and sales.
-We [increased inbound leads by 200%](http://blog.drift.com/get-more-inbound-leads-with-live-chat) just putting live chat on our own site. 💥
+We [increased inbound leads by 200%](https://blog.drift.com/get-more-inbound-leads-with-live-chat) just putting live chat on our own site. 💥
 
 Often, you don't need more traffic to close more sales.  You just need to talk to visitors when they're live on your site.  Help customers who get stuck, encourage them to use your product, and get critical feedback - all inside your app, in real-time.
 
@@ -50,11 +51,11 @@ Reach out when visitors do meaningful things - like visit your pricing page repe
 
 = Real Testimonials =
 
-“Drift has helped my team to be proactive and efficient when communicating with customers. Emails, Surveys, NPS and more all in one place? You cannot beat that!”
+"Drift has helped my team to be proactive and efficient when communicating with customers. Emails, Surveys, NPS and more all in one place? You cannot beat that!"
 
 — Paul Miller, Co-Founder, SIKA
 
-“The product is extremely intuitive to use and has allowed every member of our company to interact with users with ease.”
+"The product is extremely intuitive to use and has allowed every member of our company to interact with users with ease."
 
 — Justin Mulvaney, Customer Experience Lead, Crystal
 
@@ -75,7 +76,7 @@ Otherwise the widget operates in [aquisition mode](https://www.drift.com/live-ch
 
 1. Chat window - minimized
 2. Chat widget - maximized
-3. Wordpress settings
+3. WordPress settings
 4. Announcement messages
 5. Overlay messages
 
@@ -99,29 +100,64 @@ Though designed to work on most browsers, Drift works best in the following envi
 
 = Is it free to use? =
 
-The plugin comes with a free plan for Wordpress users. Larger businesses can purchase upgrade options anytime.
+The plugin comes with a free plan for WordPress users. Larger businesses can purchase upgrade options anytime.
 
 
 == Usage ==
 
-After enabling the plug in, head on to the widget customization page to change settings and integrate its look and feel to match your site. When done, enable it by visiting the account configuration page and completing the instant signup process.
+After enabling the plugin, head on to the widget customization page to change settings and integrate its look and feel to match your site. When done, enable it by visiting the account configuration page and completing the instant signup process.
 
 == Installation ==
 
 *Server Requirements:* PHP4 or PHP5.
 
-*Wordpress versions:* Wordpress 2.7 and up.
+*WordPress versions:* WordPress 3.4 and up.
 
 Note: You will need a free Drift account : <a href="https://www.drift.com/?utm_source=wpdirectory&utm_medium=link&utm_campaign=signup">Create one for free here!</a>.
 
 Step-by-step Guide:
 
 * Install plugin from WordPress directory and activate it.
-* Under settings section, click on Drift to add your Drift embed code
+* Under settings section, click on Drift to add your Drift embed code.
 * Customize the chat widget to your preference.
 * Finally, make full use of our Dashboard to manage your chat widget.
 
 == Changelog ==
+
+= 3.2.9 =
+*Release date: July, 2019*
+
+* Major update: restructuring the code, the plugin is now PHP-Class Oriented.
+* New feature: the live chat can be now showed in certain pages (requested by @captainamericawp)[https://wordpress.org/support/topic/add-to-custom-post-types-3/]).
+* New feature: Drift JavaScript can be now loaded in header or footer.
+* New feature: jQuery inputs enable/disable added in settings page.
+* Internationalization the plugin and Romanian language added.
+* [Wordpress Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) has been applied.
+* Other minor code optimizations have been applied.
+
+= 1.8.4 =
+* Cleanup
+* Existence check for drift_identify
+
+= 1.8.3 =
+* Cleanup
+* Added support back for Drift Identify
+
+= 1.8.2 =
+* Cleanup
+* Rolled back Drift identify feature after it introduced a bug
+
+= 1.8.1 =
+* Cleanup
+* Added support for Drift Identify
+
+= 1.7.1 =
+* Cleanup
+* Added support for targeting WordPress User Role
+
+= 1.7 =
+* Cleanup
+* Added support for targeting WordPress User Role
 
 = 1.5 =
 * Cleanup
@@ -158,4 +194,4 @@ Step-by-step Guide:
 
 * Feature: Add the Drift live chat widget to your site!
 * Feature: Customize look and feel of the widget, including themes and color!
-* Feature: Use Wordpress user information to populate visitor data in the plugin.
+* Feature: Use WordPress user information to populate visitor data in the plugin.
