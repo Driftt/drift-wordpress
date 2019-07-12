@@ -6,7 +6,7 @@
  *
  * @package Drift
  * @subpackage Drift/includes
- * @since 3.2.9
+ * @since 2.0.0
  */
 
 if ( ! class_exists( 'Drift_Main' ) ) {
@@ -15,14 +15,14 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 	*
 	* Coordinates all the things for doing a great work!
 	*
-	* @since 3.2.9
+	* @since 2.0.0
 	*/
 	class Drift_Main {
 
 		/**
 		 * The version of the plugin.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 * @access protected
 		 * @var string $version The version of the plugin, stored for releases updates. Please
 		 *                      update it in the below __constructor for every version change.
@@ -32,7 +32,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		/**
 		 * The URL of the plugin.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 * @access protected
 		 * @var string $plugin_url Stores the URL of the plugin for further scripts.
 		 */
@@ -41,7 +41,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		/**
 		 * The loader for hooks.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 * @access protected
 		 * @var string $loader Stores the object of the Drift_Loader class.
 		 */
@@ -55,14 +55,14 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 * - plugin version;
 		 * - hooks.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		* @see plugins_url function is relied on
 		* @link https://developer.wordpress.org/reference/functions/plugins_url/
 		 */
 		public function __construct() {
 			$this->plugin_url = plugins_url( '', dirname( __FILE__ ) );
-			$this->version    = '3.2.9';
+			$this->version    = '2.0.0';
 			$this->define_hooks();
 		}
 
@@ -75,7 +75,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 * - registers options for plugin settings
 		 * - enqueues scripts
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 * @access private
 		 *
 		 * @see plugin_dir_path function is relied on
@@ -104,7 +104,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 *
 		 * Loads translation for the plugin.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @see load_plugin_textdomain function is relied on
 		 * @link https://developer.wordpress.org/reference/functions/load_plugin_textdomain/
@@ -121,7 +121,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 *
 		 * Adds a link to Drift dashboard settings in the admin bar.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @see current_user_can function is relied on
 		 * @link https://developer.wordpress.org/reference/functions/current_user_can/
@@ -156,7 +156,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 *
 		 * Hooks in the options page functions.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @see add_options_page function relied on
 		 * @link https://developer.wordpress.org/reference/functions/add_options_page/
@@ -173,7 +173,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 *
 		 * Adds a settings link to the plugin in plugins list.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @see admin_url function is relied on
 		 * @link https://developer.wordpress.org/reference/functions/admin_url/
@@ -195,7 +195,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 *
 		 * Initiates and registers the settings of the plugin.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @see register_setting function is relied on
 		 * @link https://developer.wordpress.org/reference/functions/register_setting/
@@ -231,7 +231,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 *
 		 * Hooks in the options page functions.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @see current_user_can function relied on
 		 * @link https://developer.wordpress.org/reference/functions/current_user_can/
@@ -271,7 +271,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 *
 		 * Checks the input settings and sanitizes them.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @see sanitize_text_field function relied on
 		 * @link https://developer.wordpress.org/reference/functions/sanitize_text_field/
@@ -327,7 +327,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 *
 		 * Adds custom jQuery script in dashboard plugin settings page.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @param string $hook Stores the hook of the page.
 		 *
@@ -350,7 +350,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 *
 		 * Determines the hook where Drift JavaScript will be loaded.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 * @access private
 		 *
 		 * @see get_option function is relied on
@@ -369,7 +369,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 *
 		 * Enqueues the javascript from Drift options in pages and posts.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @see get_option function is relied on
 		 * @link https://developer.wordpress.org/reference/functions/get_option/
@@ -429,7 +429,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 *
 		 * Run the loader with filters and actions.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 */
 		public function run() {
 			$this->loader->run();
@@ -441,7 +441,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 * Renders the checkbox input for Drift plugin settings page.
 		 * Permits activation/deactivation of the Drift plugin effect.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @see get_option function is relied on
 		 * @link https://developer.wordpress.org/reference/functions/get_option/
@@ -468,7 +468,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 * Renders the checkbox input for Drift plugin settings page.
 		 * Whether to allow the identifying of the authenticated user on the site.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @see get_option function is relied on
 		 * @link https://developer.wordpress.org/reference/functions/get_option/
@@ -495,7 +495,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 * Renders the text input for Drift plugin settings page.
 		 * Permits to set the posts/pages where the Drift live chat not appear.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @see get_option function is relied on
 		 * @link https://developer.wordpress.org/reference/functions/get_option/
@@ -526,7 +526,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 *
 		 * @link https://app.drift.com/settings/widget
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @see get_option function is relied on
 		 * @link https://developer.wordpress.org/reference/functions/get_option/
@@ -560,7 +560,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 * Renders the checkbox input for Drift plugin settings page.
 		 * Permits to load the JavaScript in site header or footer.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @see get_option function is relied on
 		 * @link https://developer.wordpress.org/reference/functions/get_option/
@@ -586,7 +586,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 *
 		 * Identifies users from their email comments or from their role if they are logged in.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 * @access private
 		 *
 		 * @see wp_get_current_user function is relied on
@@ -640,7 +640,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 * Makes _options database table modifications if the new release has other data configurations.
 		 * This static method is only used in register_activation_hook() function from drift.php file.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 * @access private
 		 * @todo Modify this method after all the users which use Drift 1.8.4 have beed updated to this one version.
 		 *
