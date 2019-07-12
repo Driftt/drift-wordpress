@@ -5,7 +5,7 @@
  * Deletes options and unregisters settings of the plugin.
  *
  * @package Drift
- * @since 3.2.9
+ * @since 2.0.0
  *
  * @see delete_option function is relied on
  * @link https://developer.wordpress.org/reference/functions/delete_option/

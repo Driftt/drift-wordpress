@@ -6,7 +6,7 @@
 *
 * @package Drift
 * @subpackage Drift/includes
-* @since 3.2.9
+* @since 2.0.0
 */
 
 if ( ! class_exists( 'Drift_Loader' ) ) {
@@ -17,14 +17,14 @@ if ( ! class_exists( 'Drift_Loader' ) ) {
 	 * the plugin, and register them with the WordPress API. Call the
 	 * run function to execute the list of actions and filters.
 	 *
-	 * @since 3.2.9
+	 * @since 2.0.0
 	 */
 	class Drift_Loader {
 
 		/**
 		 * The array of actions registered with WordPress.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 * @access protected
 		 * @var array $actions The actions registered with WordPress to fire when the plugin loads.
 		 */
@@ -33,7 +33,7 @@ if ( ! class_exists( 'Drift_Loader' ) ) {
 		/**
 		 * The array of filters registered with WordPress.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 * @access protected
 		 * @var array $filters The filters registered with WordPress to fire when the plugin loads.
 		 */
@@ -44,7 +44,7 @@ if ( ! class_exists( 'Drift_Loader' ) ) {
 		 *
 		 * Initiates the collections used to maintain the actions and filters.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 */
 		public function __construct() {
 			$this->actions = array();
@@ -56,7 +56,7 @@ if ( ! class_exists( 'Drift_Loader' ) ) {
 		 *
 		 * Adds a new action to the collection to be registered with WordPress.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @param string $hook      Required. Name of the hook.
 		 * @param string $component Required. Name of the class which $callback belongs to.
@@ -73,7 +73,7 @@ if ( ! class_exists( 'Drift_Loader' ) ) {
 		 *
 		 * Adds a new filter to the collection to be registered with WordPress.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @param string $hook      Required. Name of the hook.
 		 * @param string $component Required. Name of the class which $callback belongs to.
@@ -90,7 +90,7 @@ if ( ! class_exists( 'Drift_Loader' ) ) {
 		 *
 		 * A utility function that is used to register the actions and hooks into a single collection.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 * @access  private
 		 *
 		 * @param string $hooks     Required. The hooks property array.
@@ -117,7 +117,7 @@ if ( ! class_exists( 'Drift_Loader' ) ) {
 		 * Runs the hooks.
 		 * Runs the filters and the actions from the property arrays.
 		 *
-		 * @since 3.2.9
+		 * @since 2.0.0
 		 *
 		 * @see add_filter function is relied on
 		 * @link https://developer.wordpress.org/reference/functions/add_filter/
