@@ -62,7 +62,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 */
 		public function __construct() {
 			$this->plugin_url = plugins_url( '', dirname( __FILE__ ) );
-			$this->version    = '2.0.0';
+			$this->version    = '2.0.1';
 			$this->define_hooks();
 		}
 

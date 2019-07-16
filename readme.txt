@@ -4,8 +4,8 @@ Contributors: Drift
 Tags: drift, live chat, chat, communication, sales, marketing, announcements, talk to customers, customer feedback, feedback, chat plugin, free, free chat, chatra, livechat, slack, intercom, hubspot, salesforce, zapier, hellobar, hello bar, popup, ontraport, pardot, klaviyo, popup, exit intent, growth, subscribers, subscription, email form,  analytics,  widget, lightbox, inbound marketing, welcome mat, landing pagelivechat, olark, boldchat, online chat, online support, in-app chat, instant message, helpdesk, php live chat, snapengage, support software, website chat, WordPress chat, WordPress live chat, WordPress live chat plugin, zendesk, zopim, zopim live chat, tawk, tawk.to, tawkto, jivosite, snapengage,chat widget
 Requires at least: 4.9
 Requires PHP: 5.6
-Stable tag: 2.0.0
-Version: 2.0.0
+Stable tag: 2.0.1
+Version: 2.0.1
 Tested up to: 5.2.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -123,6 +123,10 @@ Step-by-step Guide:
 * Finally, make full use of our Dashboard to manage your chat widget.
 
 == Changelog ==
+
+= 2.0.1 =
+*Release date: July 16th, 2019*
+* BUGFIX: Fixed poor usage of this in static method
 
 = 2.0.0 =
 *Release date: July, 2019*
