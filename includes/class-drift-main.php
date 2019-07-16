@@ -653,7 +653,7 @@ if ( ! class_exists( 'Drift_Main' ) ) {
 		 * @global object $wpdb Used for database queries.
 		 */
 		public static function release_updates() {
-			if ( version_compare( $this->version, '1.8.4', '>' ) ) {
+			if ( version_compare( '2.0.0', '1.8.4', '>' ) ) {
 				$old = get_option( 'Drift_settings' ); // The old name of the option
 				if ( isset( $old ) ) {
 					global $wpdb;
