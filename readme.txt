@@ -206,4 +206,4 @@ Step-by-step Guide:
 
 * Feature: Add the Drift live chat widget to your site!
 * Feature: Customize look and feel of the widget, including themes and color!
-* Feature: Use Wordpress user information to populate visitor data in the plugin.
+* Feature: Use WordPress user information to populate visitor data in the plugin.
